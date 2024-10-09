@@ -10,5 +10,8 @@ public class Main {
         int anoDeLancamento = 2022;
 
         System.out.println("Ano de lançamento: " + anoDeLancamento);
+
+        String sinopse;
+        sinopse = "Filme de aventura com o Tom Cruise";
     }
 }
