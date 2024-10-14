@@ -13,5 +13,26 @@ public class Main {
 
         String sinopse;
         sinopse = "Filme de aventura com o Tom Cruise";
+
+        System.out.println(sinopse);
+
+        /* usando casting ou seja convertendo valores (nesse ex vamos ter uma variavel int que vai armazenar a média das notas, mas para isso ela teria que ser float ou double, mas vamos forçar ela sendo int a armazenar a média(que vai passar a ser número inteiro)) */
+
+        double n1 = 8.5;
+        double n2 = 5.5;
+
+        int classificacao = (int )(n1 + n2) /2;
+
+        System.out.println("A média das notas de avaliação é: " + classificacao);
+
+        //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        // Exercicio - converter graus Celsius para Fahrenheit
+
+        double temperatura = 35;
+
+        double conversao = (temperatura * 1.8) / 32;
+
+        System.out.println("A conversão de temperatura é: " + conversao);
+        //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
     }
 }
